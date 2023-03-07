@@ -14,3 +14,26 @@ private_data_subnet_az2_cidr = "10.0.5.0/24"
 
 # SECURITY-GROUP VARIABLES
 ssh_location = "24.159.96.247/32"
+
+
+# rds variables
+database_snapshot_identifier = "rentzonedatabase-snapshot"
+database_instance_class      = "db.t2.micro"
+database_instance_identifier = "rentzonedatabase"
+multi_az_deployment          = "false"
+
+
+# acm variables
+domain_name       = "attoassicloud.tk"
+alternative_names = "*.attoassicloud.tk"
+
+# S3 variables
+env_file_bucket_name = "atto-ecs-env-file-bucket"
+env_file_name        = "rentzone.env"
+
+# ecs variables
+architecture    = "X86_64"
+container_image = "663098898416.dkr.ecr.us-east-1.amazonaws.com/devop1_repository:2"
+
+# route 53 variables
+record_name = "www"
