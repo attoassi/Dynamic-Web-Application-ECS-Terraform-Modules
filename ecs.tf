@@ -10,10 +10,10 @@ resource "aws_ecs_cluster" "ecs_cluster" {
 
 # create cloudwatch log group
 resource "aws_cloudwatch_log_group" "log_group" {
-  name = "/ecs/${var.project_name}-${var.environment}-td"
+  name = "/ecs/${var.project_name}-${var.environment}-td" # td stand for task definition
 
   lifecycle {
-    create_before_destroy = true # when we update our terraform resource, terraform will destroy it before dreate a new one
+    create_before_destroy = true # when we update our terraform resource, terraform will destroy it(the cloudwatch resource) before it creates a new one
   }
 }
 

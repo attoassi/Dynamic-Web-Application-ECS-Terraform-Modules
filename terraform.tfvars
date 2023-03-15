@@ -17,9 +17,9 @@ ssh_location = "24.159.96.247/32"
 
 
 # rds variables
-database_snapshot_identifier = "rentzonedatabase-snapshot"
+database_snapshot_identifier = "rentzone-rds-dynamicwebapp-final-snapshot" # look for "DB snapshot name" on the snapshot page
 database_instance_class      = "db.t2.micro"
-database_instance_identifier = "rentzonedatabase"
+database_instance_identifier = "dev-rds-db" # look for "Instance/Cluster Name" on the snapshot page
 multi_az_deployment          = "false"
 
 
@@ -29,11 +29,11 @@ alternative_names = "*.attoassicloud.tk"
 
 # S3 variables
 env_file_bucket_name = "atto-ecs-env-file-bucket"
-env_file_name        = "rentzone.env"
+env_file_name        = "rentzon.env"
 
 # ecs variables
 architecture    = "X86_64"
-container_image = "663098898416.dkr.ecr.us-east-1.amazonaws.com/devop1_repository:2"
+container_image = "663098898416.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest"
 
 # route 53 variables
 record_name = "www"
