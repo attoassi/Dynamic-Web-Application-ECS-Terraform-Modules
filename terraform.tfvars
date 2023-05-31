@@ -24,8 +24,8 @@ multi_az_deployment          = "false"
 
 
 # acm variables
-domain_name       = "attoassicloud.tk"
-alternative_names = "*.attoassicloud.tk"
+domain_name       = "attoassicloud.cf"
+alternative_names = "*.attoassicloud.cf"
 
 # S3 variables
 env_file_bucket_name = "atto-ecs-env-file-bucket"
