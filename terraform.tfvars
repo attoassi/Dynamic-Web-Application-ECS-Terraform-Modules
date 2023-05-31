@@ -33,7 +33,7 @@ env_file_name        = "rentzon.env"
 
 # ecs variables
 architecture    = "X86_64"
-container_image = "663098898416.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest"
+container_image = "Attoaws.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest"
 
 # route 53 variables
 record_name = "www"
