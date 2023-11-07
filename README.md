@@ -2,5 +2,5 @@
 
 # This is a repository to store Terraform codes for automating the deployment of Dynamic web applications on AWS with Docker, Amazon ECS, Amazon ECR
 
-# Note: when reusing/updating this template, use a domain name that don't have an ssl certificate (.tk, cloud)
+# Note: when reusing/updating this template, use a domain name that don't have an ssl certificate (.cf, cloud)
         update the rentzon.en file and the value in .tfvars 
