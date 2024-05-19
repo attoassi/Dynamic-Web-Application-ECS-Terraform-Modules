@@ -17,23 +17,23 @@ ssh_location = "0.0.0.0/0" #"my-ip-address"
 
 
 # rds variables
-database_snapshot_identifier = "rentzone-rds-dynamicwebapp-final-snapshot"
+database_snapshot_identifier = "Your-db-snapshot-identifier"
 database_instance_class      = "db.t2.micro"
 database_instance_identifier = "dev-rds-db"
 multi_az_deployment          = "false"
 
 
 # acm variables
-domain_name       = "attoztouch.com"   #"Your-domain-name"
-alternative_names = "*.attoztouch.com" #"*.Your-domain-name"
+domain_name       = "Your-domain-name"
+alternative_names = "*.Your-domain-name"
 
 # S3 variables
-env_file_bucket_name = "atto-ecs-en-variables" #"Your-bucket-name"
-env_file_name        = "rentzon.env"           #"your-file-name"
+env_file_bucket_name = "Your-bucket-name"
+env_file_name        = "Your-file-name"
 
 # ecs variables
 architecture    = "X86_64"
-container_image = "663098898416.dkr.ecr.us-east-1.amazonaws.com/rentzone" #"Your-image-URI"
+container_image = "Your-image-URI"
 
 # route 53 variables
 record_name = "www"
