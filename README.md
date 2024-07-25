@@ -4,5 +4,8 @@
 
  Note: when reusing this template, update the domain name in the rentzon.env file and the values in the *.tfvars file
 
+
+ # Architecture Diagram
+
  ![Alt text](/Architecture_ECS_3tier_vpc3.png)
         
