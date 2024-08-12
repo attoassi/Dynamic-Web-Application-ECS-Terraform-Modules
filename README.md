@@ -9,5 +9,5 @@
  # Architecture Diagram
 
 
- ![Alt text](/)
+ ![Alt text](/Diagram_Architecture_ECS_3tier_vpc.png)
         
